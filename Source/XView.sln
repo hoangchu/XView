@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "XView", "XView", "{816947C3-0FFE-4E9E-A428-5D5B37E5624D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XView.Tridion2013SP1", "XView\XView.Tridion2013SP1.csproj", "{952E2072-E042-46E5-B841-DB19C5BA7EA1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XView.Tridion2011SP1", "XView\XView.Tridion2011SP1.csproj", "{46ACB89B-775C-485E-A357-3F8BB976F6C1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XView.Web8", "XView\XView.Web8.csproj", "{8826A535-A066-456A-8EB5-916AF4F4757B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{952E2072-E042-46E5-B841-DB19C5BA7EA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{952E2072-E042-46E5-B841-DB19C5BA7EA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{952E2072-E042-46E5-B841-DB19C5BA7EA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{952E2072-E042-46E5-B841-DB19C5BA7EA1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46ACB89B-775C-485E-A357-3F8BB976F6C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46ACB89B-775C-485E-A357-3F8BB976F6C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46ACB89B-775C-485E-A357-3F8BB976F6C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46ACB89B-775C-485E-A357-3F8BB976F6C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8826A535-A066-456A-8EB5-916AF4F4757B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8826A535-A066-456A-8EB5-916AF4F4757B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8826A535-A066-456A-8EB5-916AF4F4757B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8826A535-A066-456A-8EB5-916AF4F4757B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{952E2072-E042-46E5-B841-DB19C5BA7EA1} = {816947C3-0FFE-4E9E-A428-5D5B37E5624D}
+		{46ACB89B-775C-485E-A357-3F8BB976F6C1} = {816947C3-0FFE-4E9E-A428-5D5B37E5624D}
+		{8826A535-A066-456A-8EB5-916AF4F4757B} = {816947C3-0FFE-4E9E-A428-5D5B37E5624D}
+	EndGlobalSection
+EndGlobal

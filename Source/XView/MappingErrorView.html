@@ -1,0 +1,44 @@
+﻿<style type="text/css"> .typeName {color:#00a1de;} .code {color:maroon;} .error {color:red;font-size:1.1em;}a {text-decoration:none;color:#00a1de} a:hover {text-decoration:underline}</style>
+<pre><strong>
+__  ___   ___      
+\ \/ \ \ / (_)_____ __ __
+ >  < \ V /| / -_\ V  V /
+/_/\_\ \_/ |_\___|\_/\_/</strong> (v1.7) là chùm khế ngọt
+<span class="error">ERROR: {ErrorMessage}</span>
+
+<!-- BEGIN: invalidTemplateName -->Template name <span class="error">{TemplateName}</span> is not compliant with XView template naming convention.
+
+Template names must be matched by this regular expression:
+<span class="code">{TemplateNameRegexPattern}</span>
+
+Please rename your template.
+
+-------------------------------------------------
+<strong>Template Naming Convention</strong>
+-------------------------------------------------
+
+1. Pascal Casing: capitalize the first letter of each word
+   (including acronyms of over two letters in length)
+
+2. Words can be separated by a space character
+
+3. Optional "is-a" relationship character ":" is allowed.
+   For example "System: Script", means System "is-a" Script
+
+4. Words on both the left and right sides of the ":" character
+   must comply with the first two rules
+
+5. Allowed characters are: A-Z, a-z, 0-9, :, space
+<!-- END: invalidTemplateName --><!-- BEGIN: viewNotFound -->
+Could not find a matching View for {TemplateTypeName} <span class="error">{TemplateName}</span>.
+
+Please implement this missing View class:
+<span class="error">{ViewFullTypeName}</span>
+<!-- END: viewNotFound -->
+
+-------------------------------------------------
+<strong>Documentation</strong>
+-------------------------------------------------
+o <a href="http://xview.codeplex.com">XView Website</a>
+o <a href="http://xview.codeplex.com/documentation">XView Documentation</a>
+</pre>
